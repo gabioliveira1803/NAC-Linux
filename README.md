@@ -12,10 +12,15 @@ A rotina que foi programada no script para que sempre que for executado, será d
 1: Inicialmente ira verificar quais das opções o usuario irá escolher, foi criado uma função para que, com base em um "case" seja chamado outras funções, sendo que, para colher essas informações iniciais, será necessário uma interação do usuario para seguir para o proximo passo.
 
 Informações a serem verificadas e ações a serem tomadas:
-    - Verificar se o sistema é compativel com o script.
-    - Verificar se o diretório "/backup" já existe, e se não, criar o mesmo, e é feito o Backup inicial.
-    - Fazer o Backup para o diretório que foi criado.
-    - Automatizar o script para executar de hora/hora, dia/dia ou mensalmente. 
+
+- Verificar se o sistema é compativel com o script.
+
+- Verificar se o diretório "/backup" já existe, e se não, criar o mesmo, e é feito o Backup inicial.
+
+- Fazer o Backup para o diretório que foi criado.
+
+- Automatizar o script para executar de hora/hora, dia/dia ou mensalmente.
+ 
 2: Dependendo da escolha do Usuario, o script vai executar a função que foi solicitada, dessa forma, segue abaixo o funcionamento de cada uma delas:
 
 2.1: Função "principal()" - Executa a verificação inicial do Usuario, qual será a ação que o mesmo ira tomar.
